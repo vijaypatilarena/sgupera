@@ -3,8 +3,8 @@
 import { motion } from "framer-motion";
 
 const UNIVERSITIES = [
-  { name: "Sanjay Ghodawat University", logo: "https://www.sanjayghodawatuniversity.ac.in/images/aboutlogo.jpg" },
-  { name: "MGMU", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGcLvyMnEDqM7SCmNvLBAqjUM1DNEAOdC7UA&s" },
+  { name: "Sanjay Ghodawat University", logo: "https://askusedu.com/wp-content/uploads/2023/04/logo-2.jpg" },
+  { name: "MGMU", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxO5BXUbPzN3yxhwlBNANTEwKszc5MblsSxw&s" },
   { name: "MIT-ADT", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYVl6_hFMlDwdNrItMnwgmVriZHvvDdyy1jQ&s" },
   { name: "Vishwakarma University", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjyuxRqlHxXty6y5Ts27atHdYD49RZKy5TkA&s" },
   { name: "Sandip University", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYw6VRMGTIH4oXvzg-lIJnEx_3lVnaFIdJUw&s" },
