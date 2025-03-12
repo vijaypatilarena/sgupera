@@ -58,7 +58,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t text-center text-muted-foreground">
-          <p>&copy; 2025 PERA PREMIER CHAMPIONSHIPS. All rights reserved. Devised by <a href="https://en.wikipedia.org/wiki/Vishnu">Almighty</a> through <a href="https://vijaypatilarena.netlify.app">VPA</a>.</p>
+          <p>&copy; 2025 PERA PREMIER CHAMPIONSHIPS. All rights reserved. Devised by <a href="https://en.wikipedia.org/wiki/Vishnu" className="text-blue-600">Almighty</a> through <a href="https://vijaypatilarena.netlify.app" className="text-blue-600">VPA</a>.</p>
         </div>
       </div>
     </footer>
