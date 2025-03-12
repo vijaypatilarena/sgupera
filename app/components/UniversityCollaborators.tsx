@@ -23,7 +23,7 @@ const UNIVERSITIES = [
   { name: "Pimpri Chinchwad University", logo:"https://pinnacle.works/wp-content/uploads/2024/04/pimpri-chinchwad1.png"},
   { name: "NICMAR University", logo: "https://www.iaspaper.net/wp-content/uploads/2023/06/ncmir.webp"},
   { name: "MIT-WPU", logo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB2TTXfHWwjjm_PSGwaXVGO8euCvQWqGqnhg&s"},
-  { name:"Universal Univeristy", logo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJQuhI4xteO6dEvGAUI2ZoeJ6pMz6aPo61TZI6Ef_XgMycBJLjVszl9fUpqR7NKT0zSX4"},
+  { name:"AI Universal Univeristy", logo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJQuhI4xteO6dEvGAUI2ZoeJ6pMz6aPo61TZI6Ef_XgMycBJLjVszl9fUpqR7NKT0zSX4"},
   { name: "MIT Vishwaprayag University", logo:"https://images.shiksha.com/mediadata/images/1691923155phpEYHAXq.jpeg"},
   { name: "DES Pune University", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzpbISOPMxPOU_H4qzb15CDGs2zsslMiwkRsOqufUabiZIcLuLxmgXImEAToDZZDpKp8w"},
   { name: "G.H Raisoni Uniersity", logo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQblqorMp4xepD72tixLQHDBktMKdYMPqlWCw&s"},

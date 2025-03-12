@@ -17,12 +17,13 @@ export default function SplashScreen({ finishLoading }: { finishLoading: () => v
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="mb-8 relative w-[200px] h-[200px]"
+          className="mb-8 flex items-center justify-center"
         >
           <Image
             src="/sgulogo.png"
             alt="SGU Logo"
-            fill
+            width={200} // Set fixed width
+            height={200} // Set fixed height
             className="object-contain"
             priority
           />
@@ -34,6 +35,14 @@ export default function SplashScreen({ finishLoading }: { finishLoading: () => v
           className="text-4xl font-bold text-primary mb-4"
         >
           नमो नमः
+        </motion.h1>
+        <motion.h1
+          initial={{ y: 20, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.5 }}
+          className="text-4xl font-bold text-primary mb-4"
+        >
+          || वसुधैव कुटुम्बकम् ||
         </motion.h1>
         <motion.div
           initial={{ opacity: 0 }}

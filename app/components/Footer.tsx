@@ -43,6 +43,10 @@ export default function Footer() {
             </ul>
           </div>
           <div>
+          <h3 className="text-xl font-bold mb-4">Reach Us</h3>
+          <p><a href="https://www.google.com/maps/place/Sanjay+Ghodawat+University/@16.7425062,74.3796734,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc103227ffea19b:0xba598d42f62e8fc1!8m2!3d16.7425062!4d74.3822537!16s%2Fg%2F1tfh32rc?entry=tts&g_ep=EgoyMDI1MDExNC4wIPu8ASoASAFQAw%3D%3D">Sanjay Ghodawat University Kolhapur - Sangli Highway, A/p Atigre - 416 118 Tal. - Hatkanangale Dist. - Kolhapur Maharashtra, भारतम् (India)</a></p>
+          </div>
+          <div>
             <h3 className="text-xl font-bold mb-4">Connect With Us</h3>
             <div className="flex space-x-4">
               {/* <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
