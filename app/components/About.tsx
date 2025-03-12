@@ -9,7 +9,7 @@ export default function About() {
             The PERA Premier Championship is a state-level inter-university sports meet organized by the Preeminent Education and Research Association (PERA) bringing together talented athletes from across the region to compete in different sports disciplines.
             </p>
             <p className="text-lg mb-6">
-              With a massive prize pool of ₹10 Lakhs, this competition represents an incredible opportunity for athletes to showcase their skills and compete at the highest level.
+              With a attractive prize pool, this competition represents an incredible opportunity for athletes to showcase their skills and compete at the highest level.
             </p>
             <p className="text-lg">
               Join us in April 2025 for an unforgettable celebration of sporting excellence, competitive spirit, and athletic achievement.
