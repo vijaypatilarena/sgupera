@@ -68,7 +68,7 @@ export default function Hero() {
             </div>
             <div className="flex items-center gap-2">
               <Trophy className="h-5 w-5 text-primary" />
-              <span>₹5 Lakh+ Prize Pool</span>
+              <span>Attractive Prize Pool</span>
             </div>
           </div>
           {/* <Button size="lg" className="text-lg px-8">
