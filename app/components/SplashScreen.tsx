@@ -20,7 +20,7 @@ export default function SplashScreen({ finishLoading }: { finishLoading: () => v
           className="mb-8 relative w-[200px] h-[200px]"
         >
           <Image
-            src="/sgu-logo.png"
+            src="/sgulogo.png"
             alt="SGU Logo"
             fill
             className="object-contain"
