@@ -70,7 +70,7 @@ const SPORTS_DATA = [
       "Food (Breakfast + Lunch + Dinner) is included with accommodation charges. Only vegetarian food will be served at SGU Campus.",
       "Charges - 1000/- per day per person.",
       "Details of the hotels nearby will be provided. (No transportation facility will be provided to these participants)",
-      "Accomodation Student Coordinators ~ Mr. Sarthak Patil ~ +91 9028698848 | Ms. Tejaswini Kumbhar ~ +91 8861109939",
+      "Accommodation Student Coordinators ~ Mr. Sarthak Patil ~ +91 9028698848 | Ms. Tejaswini Kumbhar ~ +91 8861109939",
     ],
     entryFee: "₹2,000/per team | Contact - Mr. Pranav ~ +91 7796674057",
   }
