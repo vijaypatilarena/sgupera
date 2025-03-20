@@ -28,14 +28,14 @@ export default function SplashScreen({ finishLoading }: { finishLoading: () => v
             priority
           />
         </motion.div>
-        <motion.h1
+        {/* <motion.h1
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.5 }}
           className="text-4xl font-bold text-primary mb-4"
         >
           नमो नमः
-        </motion.h1>
+        </motion.h1> */}
         <motion.h1
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}

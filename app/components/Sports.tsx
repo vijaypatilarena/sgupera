@@ -12,46 +12,57 @@ const SPORTS_DATA = [
   {
     name: "Kabaddi (W/M)",
     rules: [
-      "Rules shall be displayed soon..."
+      "Accommodation facility will be provided by Sanjay Ghodawat University.",
+      "Non AC Dormitory / Rooms are available on sharing basis.",
+      "Food (Breakfast + Lunch + Dinner) is included with accommodation charges. Only vegetarian food will be served at SGU Campus.",
+      "Charges - 1000/- per day per person.",
+      "Details of the hotels nearby will be provided. (No transportation facility will be provided to these participants)",
     ],
-    entryFee: "₹ per team | Contact - Mr. Chandrakant ~ +91 7219856833",
+    entryFee: "₹2,500/per team | Contact - Mr. Chandrakant ~ +91 7219856833",
   },
   {
     name: "Football (W/M)",
     rules: [
-      "Teams must have 11 players + 5 substitutes",
-      "90 minutes game with two 45-minute halves",
-      "Standard FIFA rules apply",
-      "Rolling substitutions allowed",
+      "Accommodation facility will be provided by Sanjay Ghodawat University.",
+      "Non AC Dormitory / Rooms are available on sharing basis.",
+      "Food (Breakfast + Lunch + Dinner) is included with accommodation charges. Only vegetarian food will be served at SGU Campus.",
+      "Charges - 1000/- per day per person.",
+      "Details of the hotels nearby will be provided. (No transportation facility will be provided to these participants)",
     ],
-    entryFee: "₹ per team | Contact - Mr. Vedant ~ +91 9423286779" ,
+    entryFee: "₹4,000 per team | Contact - Mr. Vedant ~ +91 9423286779" ,
   },
   {
     name: "Basketball (W/M)",
     rules: [
-      "Teams must have 5 players + 3 substitutes",
-      "Four quarters of 10 minutes each",
-      "24-second shot clock rule",
-      "FIBA rules apply",
+      "Accommodation facility will be provided by Sanjay Ghodawat University.",
+      "Non AC Dormitory / Rooms are available on sharing basis.",
+      "Food (Breakfast + Lunch + Dinner) is included with accommodation charges. Only vegetarian food will be served at SGU Campus.",
+      "Charges - 1000/- per day per person.",
+      "Details of the hotels nearby will be provided. (No transportation facility will be provided to these participants)",
     ],
-    entryFee: "₹ per team | Contact - Ms. Dhanashree ~ +91 7020523815",
+    entryFee: "₹2,500/per team | Contact - Ms. Dhanashree ~ +91 7020523815",
   },
   {
     name: "Cricket (M)",
     rules: [
-      "Teams must have 11 players + 4 substitutes",
-      "20 overs per innings",
-      "Power play rules apply for first 6 overs",
-      "DLS method will be used if required",
+      "Accommodation facility will be provided by Sanjay Ghodawat University.",
+      "Non AC Dormitory / Rooms are available on sharing basis.",
+      "Food (Breakfast + Lunch + Dinner) is included with accommodation charges. Only vegetarian food will be served at SGU Campus.",
+      "Charges - 1000/- per day per person.",
+      "Details of the hotels nearby will be provided. (No transportation facility will be provided to these participants)",
     ],
-    entryFee: "₹per team | Contact - Mr. Samuel ~ +91 9423286779",
+    entryFee: "₹4,000per team | Contact - Mr. Samuel ~ +91 9423286779",
   },
   {
     name: "Lawn Tennis (W/M)",
     rules: [
-      "Rules shall be displayed shortly"
+      "Accommodation facility will be provided by Sanjay Ghodawat University.",
+      "Non AC Dormitory / Rooms are available on sharing basis.",
+      "Food (Breakfast + Lunch + Dinner) is included with accommodation charges. Only vegetarian food will be served at SGU Campus.",
+      "Charges - 1000/- per day per person.",
+      "Details of the hotels nearby will be provided. (No transportation facility will be provided to these participants)",
     ],
-    entryFee: "₹ per team | Contact - Mr. Pranav ~ +91 7796674057",
+    entryFee: "₹2,000/per team | Contact - Mr. Pranav ~ +91 7796674057",
   }
   // Add more sports here...
 ];
@@ -69,7 +80,7 @@ export default function Sports() {
                 <AccordionContent>
                   <div className="space-y-4 p-4">
                     <div>
-                      <h4 className="font-semibold mb-2">Rules & Regulations:</h4>
+                      <h4 className="font-semibold mb-2">Essentials:</h4>
                       <ul className="list-disc pl-5 space-y-1">
                         {sport.rules.map((rule, idx) => (
                           <li key={idx}>{rule}</li>
@@ -80,7 +91,7 @@ export default function Sports() {
                       <h4 className="font-semibold mb-2">Entry Fee:</h4>
                       <p>{sport.entryFee}</p>
                     </div>
-                    <Button className="w-full mt-4">Register for {sport.name}</Button>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfqeaWOH-41S4bfQ6JYsQyp6CvhFWZIxuwVgMoUIFeyXCROvg/viewform?usp=sharing"><Button className="w-full mt-4"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfqeaWOH-41S4bfQ6JYsQyp6CvhFWZIxuwVgMoUIFeyXCROvg/viewform?usp=sharing">Register For {sport.name}</a></Button></a>
                   </div>
                 </AccordionContent>
               </AccordionItem>

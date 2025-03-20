@@ -16,6 +16,10 @@ export default function Footer() {
                  perasports2025@sguk.ac.in
               </a>
             </p>
+            <p>Student Coordinators ~</p>
+            <p>Mr. Shivtej Khot ~ +91 9322471990</p>
+            <p>Ms. Vaishnavi Patil ~ +91 8088454300</p>
+            <p>Mr. Pranav Varute ~ +91 7796674057</p>
           </div>
           <div>
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
@@ -43,7 +47,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-          <h3 className="text-xl font-bold mb-4">Reach Us</h3>
+          <h3 className="text-xl font-bold mb-4">Reach Us (Click on the address below for navigation!)</h3>
           <p><a href="https://www.google.com/maps/place/Sanjay+Ghodawat+University/@16.7425062,74.3796734,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc103227ffea19b:0xba598d42f62e8fc1!8m2!3d16.7425062!4d74.3822537!16s%2Fg%2F1tfh32rc?entry=tts&g_ep=EgoyMDI1MDExNC4wIPu8ASoASAFQAw%3D%3D">Sanjay Ghodawat University Kolhapur - Sangli Highway, A/p Atigre - 416 118 Tal. - Hatkanangale Dist. - Kolhapur Maharashtra, भारतम् (India)</a></p>
           </div>
           <div>
