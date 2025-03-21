@@ -33,7 +33,7 @@ const SPORTS_DATA = [
       "Details of the hotels nearby will be provided. (No transportation facility will be provided to these participants)",
       "Accommodation Student Coordinators ~ Mr. Sarthak Patil ~ +91 9028698848 | Ms. Tejaswini Kumbhar ~ +91 8861109939",
     ],
-    entryFee: "₹4,000 per team | Contact - Mr. Vedant ~ +91 9423286779" ,
+    entryFee: "₹4,000 per team | Contact - Mr. Vedant ~ +91 8296116362" ,
   },
   {
     name: "Basketball (W/M)",
@@ -109,6 +109,8 @@ export default function Sports() {
           </Accordion>
         </div>
       </div>
+      {/* <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Chairperson Details</h2>
+      <h3></h3> */}
     </section>
   );
 }
