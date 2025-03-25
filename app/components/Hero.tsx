@@ -57,6 +57,7 @@ export default function Hero() {
           <p className="text-xl md:text-2xl mb-8 text-muted-foreground">
             Hosted by Sanjay Ghodawat University
           </p>
+          <h4>Hurry Up! Last date for registration is 31st March 2025!</h4>
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-12">
             <div className="flex items-center gap-2">
               <Calendar className="h-5 w-5 text-primary" />
