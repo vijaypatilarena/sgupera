@@ -82,7 +82,7 @@ const COMMITTEE_DATA = [
   {
     name: "Registration Committee",
     coordinators: [
-      { name: "Ms. Sanakriti Bhokare", contact: "+91 8485844108" },
+      { name: "Ms. Sanskriti Bhokare", contact: "+91 8485844108" },
       { name: "Ms. Swati Vhanwad", contact: "+91 8767010204" },
     ],
   },
@@ -134,7 +134,7 @@ export default function Sports() {
                     </div>
                     <div>
                       <h4 className="font-semibold mb-2">Entry Fee:</h4>
-                      <p>{sport.entryFee}</p>
+                      <p className="text-lg md:text-xl font-semibold mb-2">{sport.entryFee}</p>
                     </div>
                     <Button className="w-full mt-4">
                       <a href="https://docs.google.com/forms/d/e/1FAIpQLSfqeaWOH-41S4bfQ6JYsQyp6CvhFWZIxuwVgMoUIFeyXCROvg/viewform?usp=sharing">
@@ -157,7 +157,7 @@ export default function Sports() {
                 <AccordionTrigger className="text-xl">{committee.name}</AccordionTrigger>
                 <AccordionContent>
                   <div className="p-4">
-                    <h4 className="font-semibold mb-2">Student Coordinators:</h4>
+                    <h4 className="font-semibold mb-2">Coordinators:</h4>
                     <ul className="list-disc pl-5 space-y-1">
                       {committee.coordinators.map((coordinator, idx) => (
                         <li key={idx}>{coordinator.name} - <span className="font-semibold">{coordinator.contact}</span></li>
