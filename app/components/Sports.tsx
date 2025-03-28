@@ -81,7 +81,7 @@ const SPORTS_DATA = [
       "4. Color dress will be compulsory.",
       "5. In case of a tie, winner will be decided on wickets fallen. If further there there is atie, then the winner will decided on the basis of ball-out ",
       "6. Matches will get conducted in day as well as in night."
-      
+
     ],
     entryFee: "₹4,000 per team | Contact - Mr. Samuel ~ +91 9423286779",
   },
@@ -143,6 +143,25 @@ export default function Sports() {
     <section id="sports" className="py-20">
       <div className="container mx-auto px-4">
         {/* Sports Categories Heading */}
+        <div className="flex flex-col items-center text-center mb-6 space-y-4">
+          <h2 className="text-3xl md:text-4xl font-bold">
+            Before you register, download these essential documents and go through them!
+          </h2>
+          <div className="flex flex-col md:flex-row justify-center items-center space-y-3 md:space-y-0 md:space-x-4">
+            <Button asChild>
+              <a href="https://drive.google.com/file/d/1KbQms2OGSPxrFyuk0LXTYOayTtk_MVbo/view?usp=drive_link" download>
+                Download Guidelines
+              </a>
+            </Button>
+            <Button asChild>
+              <a href="https://drive.google.com/file/d/1JxjAlLDCe8gJY4zksuBtVLnlRsGcasUn/view?usp=drive_link" download>
+                Download Registration Form
+              </a>
+            </Button>
+          </div>
+        </div>
+
+
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Sports Categories</h2>
 
         <div className="max-w-3xl mx-auto">
