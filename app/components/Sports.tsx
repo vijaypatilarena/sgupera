@@ -149,7 +149,7 @@ export default function Sports() {
           </h2>
           <div className="flex flex-col md:flex-row justify-center items-center space-y-3 md:space-y-0 md:space-x-4">
             <Button asChild>
-              <a href="https://drive.google.com/file/d/1KbQms2OGSPxrFyuk0LXTYOayTtk_MVbo/view?usp=drive_link" download>
+              <a href="https://drive.google.com/file/d/13gKwIoEypnxw_52BS7jQjco8RsgSScER/view?usp=sharing" download>
                 Download Guidelines
               </a>
             </Button>
