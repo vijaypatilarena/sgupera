@@ -28,7 +28,7 @@ const SPORTS_DATA = [
       "5. Weight-Men-below-85KG",
       "6. Weight-Women-below-75KG",
     ],
-    entryFee: "₹2,500 per team | Contact - Mr. Chandrakant ~ +91 7219856833",
+    entryFee: "₹2,500 per team | Contact - Mr. Chandrakant ~ +91 7219856833 | First Prize ~ ₹15,000, Runner Up ~ ₹10,000",
   },
   {
     name: "Football (W/M)",
@@ -45,7 +45,7 @@ const SPORTS_DATA = [
       "2. Football gear is compulsory.",
       "3. In case of draw, penalty shootout will decide the winner.",
     ],
-    entryFee: "₹4,000 per team | Contact - Mr. Vedant ~ +91 8296116362",
+    entryFee: "₹4,000 per team | Contact - Mr. Vedant ~ +91 8296116362 | First Prize ~ ₹20,000, Runner Up ~ ₹15,000",
   },
   {
     name: "Basketball (W/M)",
@@ -62,7 +62,7 @@ const SPORTS_DATA = [
       "2. In case of a tie, 5 minutes of extra time will be allotted.",
       "3. Basketball gear is compulsory.",
     ],
-    entryFee: "₹2,500 per team | Contact - Ms. Dhanashree ~ +91 7020523815",
+    entryFee: "₹2,500 per team | Contact - Ms. Dhanashree ~ +91 7020523815 | First Prize ~ ₹15,000, Runner Up ~ ₹10,000",
   },
   {
     name: "Cricket (M)",
@@ -83,7 +83,7 @@ const SPORTS_DATA = [
       "6. Matches will get conducted in day as well as in night."
 
     ],
-    entryFee: "₹4,000 per team | Contact - Mr. Samuel ~ +91 9423286779",
+    entryFee: "₹4,000 per team | Contact - Mr. Samuel ~ +91 9423286779 | First Prize ~ ₹20,000, Runner Up ~ ₹15,000",
   },
   {
     name: "Lawn Tennis (W/M)",
@@ -101,7 +101,7 @@ const SPORTS_DATA = [
       "3. Playing Kit is compulsory.",
       "4. It is a team sport."
     ],
-    entryFee: "₹2,000 per team | Contact - Mr. Pranav ~ +91 7796674057",
+    entryFee: "₹2,000 per team | Contact - Mr. Pranav ~ +91 7796674057 | First Prize ~ ₹6,000, Runner Up ~ ₹4,000",
   },
 ];
 
